@@ -1,0 +1,61 @@
+
+img {
+    border-radius: 10px;
+    transform: scale(0.8);
+}
+
+img:hover {
+    transform: scale(1);
+}
+
+.title::after {
+    content: '';
+    display: block;
+    background-color:red;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.title::before {
+    content: '';
+    display: block;
+    background-color:red;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#projects a {
+    text-decoration: none
+}
+
+#projects a:hover {
+    color: orange;
+}
+
+.pexels {
+     color: orange;
+}
+footer{
+    background-color:gray;
+        color: red;
+}
+
+footer a{
+    text-decoration: none;
+    color: orange;
+}
+
+footer a:hover{
+     color: red;
+}
+
+/* .footer::before {
+    content: '';
+    display: block;
+    background-color:red;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+} */
